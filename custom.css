@@ -86,15 +86,17 @@
 
 
 
-/* @media screen and (max-width: 380px) {
-
+@media screen and (max-width: 380px) { /* Данные стили очень сложно заменить на bootstrap аналог, необходимо использовать scss-файл 
+  и с использованием конструкции  @include media-breakpoint-down  */
     .order-button {
       font-size: 0.6rem;
     }
-  } */
+  }
 
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
+  /* Данные стили очень сложно заменить на bootstrap аналог, необходимо использовать scss-файл 
+  и с использованием конструкции  @include media-breakpoint-down  */
 
   .card-service-item .custom-card-text {
     font-size: 0.8rem;
@@ -106,7 +108,7 @@
     font-size: 0.7rem;
   }
 
-} */
+}
 
 .card:hover {
   transform: translateY(-5px);
